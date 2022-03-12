@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+.grid-container{
+ 
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  justify-content: center;
+
+}
+.movie_card {
+  padding: 0 !important;
+  width: 22rem;
+  margin: 14px;
+  border-radius: 10px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.movie_info {
+  color: #5e5c5c;
+  white-space: wrap;
+  height: 5rem;
+  overflow: hidden;
+  white-space: wrap;
+  text-align: center;
+}
+.container{
+  display: flex;
+}
+.disabled-link{
+        cursor: default;
+        pointer-events: none;        
+        text-decoration: none;
+        color: grey;
+    }
+
+.setPosition{
+ 
+  height:100%;
+  width:30%;
+  position:fixed;
+  padding: 30px;
+}
+.button-position{
+  position: relative;
+  left:100px;
+  background-color: black;
+}
+
+.para-position{
+  height:100%;
+  width:70%;
+  top:70%;
+  padding: 80px;
+  text-align: center;
+}
