@@ -1,10 +1,9 @@
-import App from "../App"
-import '../App.css';
+import "../App.css";
 import MovieList from "../Components/MovieList";
-export default function Home(){
-    return(
+export default function Home({ movies, setMovies }) {
+    return (
         <div className="App">
-            <MovieList></MovieList>
+            <MovieList movies={movies} setMovies={setMovies} />
         </div>
-    )
+    );
 }
